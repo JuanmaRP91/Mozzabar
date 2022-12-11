@@ -1,0 +1,758 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+header{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(19, 6, 56);
+}
+
+
+    
+.welcome{
+    width: 100%;
+    height: 1080px;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}    
+
+.navbar-logo{
+   width: 20%;
+   display: flex;
+   justify-content: center;
+}
+
+.navbar-logo__img{
+    width: 120px;
+    height: 100%;
+}
+
+.navbar-list{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-list__link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.background-imagen{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.concept{
+    width: 100%;
+    height: 1080px;;
+}
+
+.backgroundConcept-img{
+    background-image: linear-gradient(rgb(255, 254, 254, 0.8), rgba(255, 254, 254, 0.8)), url('https://img.freepik.com/foto-gratis/cierre-arriba-fondo-texturizado-marmol-negro_53876-63511.jpg?w=740&t=st=1670768009~exp=1670768609~hmac=2efa0adec7f21c576690a7f34ddca4b6e52a13034ebf2f54cf751dd38b4fc460');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.concept-centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 41, 41);
+    width: 500px;
+    height: 400px;
+    margin: 50px 0 50px 0; 
+    color: white;
+}
+
+.concept-centre__title{
+    text-transform: uppercase;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 20px;
+    font-weight: inherit;
+    letter-spacing: 8px;
+    text-align: center;
+    position:relative;
+}
+
+
+
+.concept-centre__p{
+    font-family: "Helvetica", Sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 16px;
+    text-align: justify;
+    padding: 20px 60px 0 60px;
+}
+
+
+
+
+.gallery{
+    padding: 20px;  
+  display: flex;
+  justify-content: center;
+  background-image: url("https://w0.peakpx.com/wallpaper/988/361/HD-wallpaper-landscape-city-vertical-sky-clouds-sunlight-dark-palm-trees-urban-street-lantern-blue-orange.jpg");
+  background-repeat: repeat;
+}
+
+.gallery-collage{
+    width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.gallery-img{
+    max-width: 250px;
+    min-width: 250px;
+  background-color: #1e1d1c;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-menu{
+    font-family: "Helvetica", Sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: light;
+    letter-spacing: 8px;
+    margin: 60px 0 30px 0;
+    position: relative;
+}
+
+.title-menu:before{
+    content: "";
+    display:block;
+    width: 300px;
+    height:2px;
+    background: #000;
+    position: absolute;
+    left: 9rem;
+    top: 50%;
+    z-index: -2;
+    }
+
+.title-menu:after{
+    content: "";
+    display:block;
+    width: 300px;
+    height:2px;
+    background: #000;
+    position: absolute;
+    right: 9rem;
+    top: 50%;
+    z-index: -2;
+    }
+    .navbar-list1{
+        display: flex;
+        justify-content: center;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: light;
+        letter-spacing: 8px;
+    }
+    
+    .navbar-list1__link{
+        padding: 20px 40px;
+        text-decoration: none;
+        color: black;
+    }
+    .navbar-list1__link:hover{
+        text-decoration: underline orangered 3px;
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        background-image: url("https://s1.best-wallpaper.net/wallpaper/m/1811/Red-maple-leaves-blurry-background-autumn_m.webp");
+        width: 50%;
+        background-size: contain;
+        background-position: center;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 7px;
+        font-weight: light;
+        letter-spacing: 1px;
+        padding: 40px 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    li{
+        padding: 5px 0;
+    }
+    
+       
+    
+    .menu-left{
+        background-color: white;
+        width: 350px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 15px;
+        align-items: baseline;
+        grid-column-start: 1;
+        align-content: stretch;
+        justify-content: space-between;
+    }
+    .menu-left__items{
+        width: 200px;
+        height: 600px;
+        grid-column-start: 1;
+        padding: 30px;
+    }
+    .menu-left__value{
+        width: 100px;
+        grid-column-start: 2;
+    }
+    .menu-left__value__price{
+        padding: 15px 0;
+    }
+    .menu-left__items__title{
+        padding: 5px 0;
+    }
+    
+    
+    .menu-right{
+        background-color: white;
+        width: 350px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 15px;
+        grid-column-start: 2;
+        align-content: stretch;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .menu-right__items{
+        width: 200px;
+        height: 600px;
+        grid-column-start: 3;
+    }
+    .menu-right__value{
+        width: 100px;
+        grid-column-start: 4;
+    }
+    .menu-right__value__price{
+        padding: 13px 25px;;
+    }
+    .menu-right__items__title{
+        padding: 5px 0;
+    }
+
+    .button-menu{
+        text-align: center;
+        
+    }
+    .button-menu__breakfast{
+        background-color: rgb(111, 111, 158);
+        display: inline-block;
+        color: white;
+        
+        border: none;
+        
+        padding: 10px 15px;
+        margin: 20px 0 50px 0;
+        text-align: center;
+        font-size: 8px;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: light;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        ;}
+
+
+
+        .booking{
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url('https://www.10wallpaper.com/wallpaper/1920x1200/1202/beach_blurred-beach_scenery_wallpaper_1920x1200.jpg');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        .booking-title{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 8px;
+            padding: 60px;
+        }
+        
+        .booking-title:before{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            left: 9rem;
+            top: 50%;
+            z-index: -2;
+            }
+        
+        .booking-title:after{content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            right: 9rem;
+            top: 50%;
+            z-index: -2;
+            
+            }
+        
+        .booking-main{
+            display: grid;
+            grid-template-columns: 2fr, 1fr;
+            justify-content: center;
+            align-items: start;
+            gap: 30px;
+            height: 700px;
+            
+        }
+        
+        .booking-form__book{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+            align-items: stretch;
+            grid-column: 1;
+        }
+        
+        .booking-form__book-people{
+            color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: light;
+            letter-spacing: 1px;
+        }   
+        .peopleNumber{
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 10px 0;
+            border: 1px solid white;
+        }
+        
+        .booking-form__book-time{
+            color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: light;
+            letter-spacing: 1px;
+        }   
+        .bookingTime{
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 10px 0;
+            border: 1px solid white;
+            
+        }
+        
+        .booking-form__book-table{
+            color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: light;
+            letter-spacing: 1px;
+        }   
+        .bookingTable{
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 10px 0;
+            border: 1px solid white;
+            
+        }
+        .submitButton{
+            width: 100%;
+            padding: 8px;
+            margin: 35px 0 10px 0;
+            border: none;
+            background-color: white;
+        }
+        .booking-form__book-extraButtons{
+            color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: light;
+            letter-spacing: 1px;
+            padding: 30px 0;;
+        }
+        .waitingButton{
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border: none;
+            background-color: white;
+        }
+        .groupButton{
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0 10px 0;
+            border: none;
+            background-color: white;
+        }
+        
+        .booking-name{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: space-around;
+            align-items: stretch;
+            grid-column: 2;
+        }
+        
+        .booking-name__infoTitle{
+            color: rgb(111, 111, 158);
+            font-family: "Helvetica", Sans-serif;
+            font-size: 28px;
+            text-transform: uppercase;
+            font-weight: lighter;
+            letter-spacing: 1px;
+        }
+        .booking-name__infoType{
+            color: rgb(255, 255, 255);
+            font-family: "Helvetica", Sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: lighter;
+            letter-spacing: 4px;
+        }
+        .booking-name__infoAddress{
+            color: rgb(255, 255, 255);
+            font-family: "Helvetica", Sans-serif;
+            font-size: 12px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            padding: 50px 0;
+        }
+        p{
+            padding: 2px;
+        
+        }
+        
+        
+        .blog-title{
+            display: flex;
+            justify-content: space-evenly;
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 8px;
+            padding: 60px;
+            position: relative;
+        }
+        
+        .blog-title:before{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            left: 9rem;
+            top: 50%;
+            z-index: -2;
+            
+            }
+        
+        .blog-title:after{
+             content: "";
+                display:block;
+                width: 300px;
+                height:2px;
+                background: #000;
+                position: absolute;
+                right: 9rem;
+                top: 50%;
+                z-index: -2;
+                
+            }
+        
+        .blog-main{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: stretch;
+            padding: 0 110px;
+        }
+        .blog-photo{
+            width: 170px;  
+            padding: 15px;
+        }
+        
+        .blog-button{
+            text-align: center;
+            padding: 30px;
+        }
+        .blog-button__post{
+            background-color: rgb(111, 111, 158);
+            display: inline-block;
+            color: white;
+            
+            border: none;
+            
+            padding: 10px 15px;
+            margin: 20px 0 50px 0;
+            text-align: center;
+            font-size: 8px;
+            font-family: "Helvetica", Sans-serif;
+            font-weight: light;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+
+            
+        }
+        .contact-header{
+            width: 100%;
+            height: 30%;
+            background-image: url("https://images.pexels.com/photos/269561/pexels-photo-269561.jpeg");
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .contact-header__logo{
+            padding-top: 150px;
+            
+        }
+        
+        .contact_header__text{
+            color: aliceblue;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 8px;
+            padding: 70px;
+        
+        }
+        
+        .contact-header__info{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            align-items: baseline;
+            padding: 50px;
+        }
+        .contact-header__info-text{
+            flex-direction: row;
+            color: rgb(255, 255, 255);
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .contact-header__info-icon{
+            height: 30px;
+            width: 30px;
+        }
+        .contact-header__info-address{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+           
+        }
+        .contact-header__info-phone{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+           
+        }
+        .contact-header__info-email{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+           
+        }
+        .contact-main__title{
+            display: flex;
+            justify-content: space-evenly;
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 8px;
+            padding: 60px;
+            position: relative;
+        }
+        
+        .contact-main__title:before{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            left: 9rem;
+            top: 50%;
+            z-index: -2;
+            }
+        
+        .contact-main__title:after{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            right: 9rem;
+            top: 50%;
+            z-index: -2;
+            }
+        
+        .contact-main__buttons{
+            display: flex;
+            margin: 20px;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+        .contact-main__button{
+            padding: 10px 30px;
+            margin: 10px 50px;
+            background-color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 4px;
+        }
+        
+        .contact-main__title{
+            display: flex;
+            justify-content: space-evenly;
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 8px;
+            padding: 60px;
+            position: relative;
+        }
+        
+        .contact-main__title:before{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            right: 9rem;
+            top: 50%;
+            z-index: -2;
+            }
+        
+        .contact-main__title:after{
+            content: "";
+            display:block;
+            width: 300px;
+            height:2px;
+            background: #000;
+            position: absolute;
+            right: 9rem;
+            top: 50%;
+            z-index: -2;
+            }
+        
+        .contact-main__buttons{
+            display: flex;
+            margin: 20px;
+            justify-content: center;
+            padding-bottom: 50px;
+        }
+        .contact-main__button{
+            padding: 10px 30px;
+            margin: 10px 50px;
+            background-color: white;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 4px;
+        }
+        .contact-footer{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: baseline;
+            background-color: rgb(243, 243, 243);
+            padding: 20px 50px 100px 50px;
+        }
+        
+        .contact-footer__title{
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: light;
+            letter-spacing: 2px;
+            padding: 50px 0 7px 0;
+        }
+        .contact-footer__text{
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            padding: 3px ;
+        }
+        .contact-footer__link{
+            color: black;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 10px;
+            font-weight: lighter;
+            letter-spacing: 1px;
+            padding: 3px ;
+        }
